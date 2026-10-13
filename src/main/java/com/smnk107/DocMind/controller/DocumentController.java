@@ -15,7 +15,8 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import reactor.core.publisher.Flux;
 
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")https://know-me-tau-one.vercel.app/
+@CrossOrigin(origins = "https://know-soumen.vercel.app")
 @RestController
 @RequestMapping("/api/v1/documents")
 @Tag(name = "Document Management")
